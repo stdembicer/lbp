@@ -25,5 +25,11 @@ return 0;
 
 long cumulative_sum(int N)
 {
-   ;
+    long accumulator; 
+
+    if (N == 0)
+	accumulator = 0;
+    else 
+	accumulator = N +  cumulative_sum(N-1); 
+    return accumulator;   
 }
