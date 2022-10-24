@@ -65,3 +65,14 @@ void gettoken(void)
 	this.type = *p;
 	return;
 }
+
+read_to_first_identifier() {
+	gettoken();
+	while (this.type!=IDENTIFIER) {
+		push(this);
+		gettoken();
+	}
+	printf("%s is ", this.string);
+	gettoken();
+}
+
