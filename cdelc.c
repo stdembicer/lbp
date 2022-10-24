@@ -1,1 +1,3 @@
 classify string
+
+gettoken
