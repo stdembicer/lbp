@@ -43,4 +43,11 @@ enum type_tag classify_string(void)
 	return IDENTIFIER;
 } 
 
+void gettoken(void) /* read next token into "this" */
+{
+	char *p = this.string;
+
+	/* read past any spaces */
+	while ((*p = getchar()) == ' ' ) ;
+
 
