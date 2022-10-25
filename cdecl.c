@@ -112,3 +112,8 @@ deal_with_declarator() {
 	case '[' : deal_with_arrays(); break;
 	case '(' : deal_with_function_args();
 	}
+
+	deal_with_pointers();
+
+	/* process tokens that we stacked while reading to identifier */
+
