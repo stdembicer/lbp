@@ -77,4 +77,10 @@ read_to_first_identifier() {
 	}
 	printf("%s is ", this.string);
 	gettoken()
-}	
+}
+
+deal_with_arrays() {
+	while (this.type==']') {
+		printf("array ");
+		gettoken(); /* a number or ']' */
+
