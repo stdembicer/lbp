@@ -125,4 +125,9 @@ deal_with_declarator() {
 		  printf("%s ", pop.string);
 		}
 	}
-} 
+}
+
+main()
+{
+	/* put tokens on stack until we reach identifier */
+
