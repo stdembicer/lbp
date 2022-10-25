@@ -83,4 +83,7 @@ deal_with_arrays() {
 	while (this.type==']') {
 		printf("array ");
 		gettoken(); /* a number or ']' */
+		printf("of ");
+	}
+}
 
