@@ -88,3 +88,11 @@ deal_with_arrays() {
 		printf("of ");
 	}
 }
+
+deal_with_function_args() {
+	while (this,type!=')') {
+		gettoken();
+	}
+	gettoken();
+	printf("functioning returning ");
+}
