@@ -80,9 +80,14 @@ read_to_first_identifier() {
 }
 
 deal_with_arrays() {
-	while (this.type==']') {
+	while (this.type=='[') {
 		printf("array ");
 		gettoken(); /* a number or ']' */
+		if (isdigit(this.string[0])) {
+			printf("0..%d ",atoi(this.string)-1);
+			gettoken(); /* read the ']' */
+		}
+		gettoken(); /* read next past the ']' */
 		printf("of ");
 	}
 }
