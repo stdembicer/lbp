@@ -1,0 +1,142 @@
+bf3cc31 HEAD@{0}: commit: Remove code typo
+d54e27b HEAD@{1}: merge feature/main: Fast-forward
+7bdd457 HEAD@{2}: checkout: moving from feature/main to main
+d54e27b HEAD@{3}: commit: Add main
+c264893 HEAD@{4}: commit: Add main
+7bdd457 HEAD@{5}: checkout: moving from main to feature/main
+7bdd457 HEAD@{6}: merge feature/deal_with_pointers: Fast-forward
+2070263 HEAD@{7}: checkout: moving from feature/deal_with_pointers to main
+7bdd457 HEAD@{8}: commit: Add second part of deal_with_pointers
+f0d5c0d HEAD@{9}: commit: Add second part of deal_with_pointers
+2070263 HEAD@{10}: checkout: moving from main to feature/deal_with_pointers
+2070263 HEAD@{11}: merge feature/deal_with_declarator: Fast-forward
+d28e909 HEAD@{12}: checkout: moving from feature/deal_with_declarator to main
+2070263 HEAD@{13}: commit: Add deal_with_declarator
+9b87205 HEAD@{14}: commit: Add deal_with_declarator
+d28e909 HEAD@{15}: checkout: moving from main to feature/deal_with_declarator
+d28e909 HEAD@{16}: merge feature/deal_with_pointers: Fast-forward
+da68498 HEAD@{17}: checkout: moving from feature/deal_with_pointers to main
+d28e909 HEAD@{18}: commit: Add deal_with_pointers
+33347ae HEAD@{19}: commit: Add deal_with_pointer
+da68498 HEAD@{20}: checkout: moving from main to feature/deal_with_pointers
+da68498 HEAD@{21}: merge feature/deal_with_function_args: Fast-forward
+cf5b005 HEAD@{22}: checkout: moving from feature/deal_with_function_args to main
+da68498 HEAD@{23}: commit: Add deal_with_function_args
+e5d0484 HEAD@{24}: commit: Add deal_with_function_args
+cf5b005 HEAD@{25}: checkout: moving from main to feature/deal_with_function_args
+cf5b005 HEAD@{26}: merge feature/deal_with_arrays: Fast-forward
+65f7316 HEAD@{27}: checkout: moving from feature/deal_with_arrays to main
+cf5b005 HEAD@{28}: commit: Add deal_with_arrays
+65f7316 HEAD@{29}: checkout: moving from main to feature/deal_with_arrays
+65f7316 HEAD@{30}: merge feature/deal_with_arrays: Fast-forward
+99f7757 HEAD@{31}: checkout: moving from feature/deal_with_arrays to main
+65f7316 HEAD@{32}: commit: Add deal_with_arrays
+bfa07e5 HEAD@{33}: commit: Add deal_with_arrays
+99f7757 HEAD@{34}: checkout: moving from main to feature/deal_with_arrays
+99f7757 HEAD@{35}: merge feature/read_to_first_identifier: Fast-forward
+1c5b8de HEAD@{36}: checkout: moving from feature/read_to_first_identifier to main
+99f7757 HEAD@{37}: checkout: moving from feature/read_to_first_identifier to feature/read_to_first_identifier
+99f7757 HEAD@{38}: commit: Add read_to_first_identifier
+999106e HEAD@{39}: commit: Add read_to_first_identifier
+1c5b8de HEAD@{40}: checkout: moving from main to feature/read_to_first_identifier
+1c5b8de HEAD@{41}: merge feature/gettoken: Fast-forward
+125a17a HEAD@{42}: checkout: moving from feature/gettoken to main
+1c5b8de HEAD@{43}: commit: Add gettoken
+25611d5 HEAD@{44}: commit: Add gettoken
+125a17a HEAD@{45}: checkout: moving from main to feature/gettoken
+125a17a HEAD@{46}: commit: Delete cdelc.c:
+fee8907 HEAD@{47}: merge feature/classify_string: Fast-forward
+dc393fc HEAD@{48}: checkout: moving from feature/classify_string to main
+fee8907 HEAD@{49}: commit: Add classify_string
+31e4827 HEAD@{50}: commit: Add classify_string
+9b4d6a8 HEAD@{51}: checkout: moving from feature/deal_with_pointers to feature/classify_string
+9b4d6a8 HEAD@{52}: commit: Remove ASSIGNMENT_06
+dc393fc HEAD@{53}: checkout: moving from main to feature/deal_with_pointers
+dc393fc HEAD@{54}: checkout: moving from feature/deal_with_pointers to main
+dc393fc HEAD@{55}: checkout: moving from main to feature/deal_with_pointers
+dc393fc HEAD@{56}: merge feature/deal_with_function_args: Fast-forward
+33c42af HEAD@{57}: checkout: moving from feature/deal_with_function_args to main
+dc393fc HEAD@{58}: commit: Add deal_with_function_args
+33c42af HEAD@{59}: checkout: moving from main to feature/deal_with_function_args
+33c42af HEAD@{60}: merge feature/deal_with_arrays: Fast-forward
+75a0fd1 HEAD@{61}: checkout: moving from feature/deal_with_arrays to main
+33c42af HEAD@{62}: commit: Add function
+75a0fd1 HEAD@{63}: checkout: moving from main to feature/deal_with_arrays
+75a0fd1 HEAD@{64}: checkout: moving from feature/read_to_first_identifier to main
+75a0fd1 HEAD@{65}: checkout: moving from main to feature/read_to_first_identifier
+75a0fd1 HEAD@{66}: merge feature/read_to_first_identifier: Fast-forward
+9482241 HEAD@{67}: checkout: moving from feature/read_to_first_identifier to main
+75a0fd1 HEAD@{68}: commit: Add read_to_first_identifier
+9482241 HEAD@{69}: checkout: moving from main to feature/read_to_first_identifier
+9482241 HEAD@{70}: checkout: moving from feature/deal_with_arrays to main
+9482241 HEAD@{71}: checkout: moving from main to feature/deal_with_arrays
+9482241 HEAD@{72}: checkout: moving from main to main
+9482241 HEAD@{73}: merge feature/gettoken: Fast-forward
+a65adbb HEAD@{74}: checkout: moving from feature/gettoken to main
+9482241 HEAD@{75}: commit: Add gettoken
+a65adbb HEAD@{76}: checkout: moving from main to feature/gettoken
+a65adbb HEAD@{77}: merge feature/classify_string: Fast-forward
+a0906b8 HEAD@{78}: checkout: moving from feature/classify_string to main
+a65adbb HEAD@{79}: commit: Add classify_string
+a0906b8 HEAD@{80}: checkout: moving from main to feature/classify_string
+a0906b8 HEAD@{81}: commit (merge): random
+88d65b2 HEAD@{82}: checkout: moving from feature/gettoken to main
+42dcb61 HEAD@{83}: commit: Add gettoken
+297ffd6 HEAD@{84}: checkout: moving from main to feature/gettoken
+88d65b2 HEAD@{85}: commit: Rm faulty add
+0a976e0 HEAD@{86}: checkout: moving from main to main
+0a976e0 HEAD@{87}: commit: Add gettoken
+297ffd6 HEAD@{88}: merge feature/classify_string: Fast-forward
+864b8e0 HEAD@{89}: checkout: moving from feature/classify_string to main
+297ffd6 HEAD@{90}: commit: Add classify_string
+864b8e0 HEAD@{91}: checkout: moving from main to feature/classify_string
+864b8e0 HEAD@{92}: checkout: moving from feature/classify_string to main
+864b8e0 HEAD@{93}: checkout: moving from main to feature/classify_string
+864b8e0 HEAD@{94}: merge feature/classify_string: Fast-forward
+fda42fb HEAD@{95}: checkout: moving from feature/classify_string to main
+864b8e0 HEAD@{96}: commit: Add classify_string
+fda42fb HEAD@{97}: checkout: moving from main to feature/classify_string
+fda42fb HEAD@{98}: commit: Add classify_string
+1260077 HEAD@{99}: checkout: moving from feature/gettoken to main
+5356389 HEAD@{100}: checkout: moving from main to feature/gettoken
+1260077 HEAD@{101}: checkout: moving from feature/gettoken to main
+5356389 HEAD@{102}: checkout: moving from main to feature/gettoken
+1260077 HEAD@{103}: checkout: moving from feature/gettoken to main
+5356389 HEAD@{104}: checkout: moving from main to feature/gettoken
+1260077 HEAD@{105}: merge feature/classify_string: Fast-forward
+5356389 HEAD@{106}: checkout: moving from feature/classify_string to main
+1260077 HEAD@{107}: commit: Add classify_string
+5356389 HEAD@{108}: checkout: moving from main to feature/classify_string
+5356389 HEAD@{109}: merge feature/classify_string: Fast-forward
+85ac9b6 HEAD@{110}: checkout: moving from feature/classify_string to main
+5356389 HEAD@{111}: commit: Add classify_string
+85ac9b6 HEAD@{112}: checkout: moving from main to feature/classify_string
+85ac9b6 HEAD@{113}: checkout: moving from feature/classify_string to main
+b0cd238 HEAD@{114}: commit: Restart Project
+4f89923 HEAD@{115}: checkout: moving from main to feature/classify_string
+85ac9b6 HEAD@{116}: commit: Add classify_string
+a3907ca HEAD@{117}: checkout: moving from feature/classify_string to main
+4f89923 HEAD@{118}: commit: Add Function classify_string
+dd3926b HEAD@{119}: commit: Add Blank classify_string
+a3907ca HEAD@{120}: checkout: moving from feature/classify_string to feature/classify_string
+a3907ca HEAD@{121}: checkout: moving from main to feature/classify_string
+a3907ca HEAD@{122}: merge feature/classify_string: Fast-forward
+99cddc8 HEAD@{123}: checkout: moving from feature/classify_string to main
+a3907ca HEAD@{124}: commit: Add classify_string
+6e27005 HEAD@{125}: commit: Delete cdecl.c
+99cddc8 HEAD@{126}: checkout: moving from main to feature/classify_string
+99cddc8 HEAD@{127}: checkout: moving from feature/classify_string to main
+99cddc8 HEAD@{128}: checkout: moving from main to feature/classify_string
+99cddc8 HEAD@{129}: merge feature/classify_string: Fast-forward
+d5abd6a HEAD@{130}: checkout: moving from feature/classify_string to main
+99cddc8 HEAD@{131}: commit: Addd classify_string
+d5abd6a HEAD@{132}: checkout: moving from main to feature/classify_string
+d5abd6a HEAD@{133}: merge feature/cumulative_sum: Fast-forward
+8c28f2c HEAD@{134}: checkout: moving from master to main
+d5abd6a HEAD@{135}: checkout: moving from feature/cumulative_sum to master
+d5abd6a HEAD@{136}: commit: Edit sumr.c
+8c28f2c HEAD@{137}: checkout: moving from main to feature/cumulative_sum
+8c28f2c HEAD@{138}: commit: Add sumr.c
+689b2ed HEAD@{139}: commit: Add 01_FUNCTIONS
+3a5a8dc HEAD@{140}: commit: Add sum.c
+5190c81 HEAD@{141}: clone: from git@github.com:stdembicer/lbp.git

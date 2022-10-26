@@ -12,7 +12,7 @@ struct token {
 	char string[MAXTOKENLEN];
 };
 
-int top=-1
+int top=-1;
 struct token stack[MAXTOKENS];
 struct token this;
 
@@ -40,7 +40,7 @@ enum type_tag classify_string(void)
 	if (!strcmp(s,"struct")) return TYPE;
 	if (!strcmp(s,"union")) return TYPE;
 	if (!strcmp(s,"enum")) return TYPE;
-
+	return IDENTIFIER;
 } 
 
 void gettoken(void) /* read next token into "this" */
@@ -69,17 +69,17 @@ void gettoken(void) /* read next token into "this" */
 	return;
 }
 /* The piece of code that understandeth all parsing */
-read_to_first_identifier() {
+int read_to_first_identifier() {
 	gettoken();
 	while (this.type!=IDENTIFIER) {
 		push(this);
 		gettoken();
 	}
 	printf("%s is ", this.string);
-	gettoken()
+	gettoken();
 }
 
-deal_with_arrays() {
+int deal_with_arrays() {
 	while (this.type=='[') {
 		printf("array ");
 		gettoken(); /* a number or ']' */
@@ -92,7 +92,7 @@ deal_with_arrays() {
 	}
 }
 
-deal_with_function_args() {
+int deal_with_function_args() {
 	while (this.type!=')') {
 		gettoken();
 	}
@@ -100,13 +100,13 @@ deal_with_function_args() {
 	printf("function returning ");
 }
 
-deal_with_pointers() {
+int deal_with_pointers() {
 	while ( stack[top].type== '*' ) {
 		printf("%s ", pop.string );
 	}
 }
 
-deal_with_declarator() {
+int deal_with_declarator() {
 	/* deal with possible/array function following the identifier */
 	switch (this.type) {
 	case '[' : deal_with_arrays(); break;
@@ -127,7 +127,7 @@ deal_with_declarator() {
 	}
 }
 
-main()
+int main()
 {
 	/* put tokens on stack until we reach identifier */
 	read_to_first_identifier();
