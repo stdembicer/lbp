@@ -43,7 +43,7 @@ enum type_tag classify_string(void)
 	return IDENTIFIER;
 } 
 
-void gettoken(void) /* read next token into "this" */
+void gettoken() /* read next token into "this" */
 {
 	char *p = this.string;
 
@@ -69,7 +69,7 @@ void gettoken(void) /* read next token into "this" */
 	return;
 }
 /* The piece of code that understandeth all parsing */
-int read_to_first_identifier() {
+ read_to_first_identifier() {
 	gettoken();
 	while (this.type!=IDENTIFIER) {
 		push(this);
@@ -79,7 +79,7 @@ int read_to_first_identifier() {
 	gettoken();
 }
 
-int deal_with_arrays() {
+deal_with_arrays() {
 	while (this.type=='[') {
 		printf("array ");
 		gettoken(); /* a number or ']' */
@@ -92,7 +92,7 @@ int deal_with_arrays() {
 	}
 }
 
-int deal_with_function_args() {
+deal_with_function_args() {
 	while (this.type!=')') {
 		gettoken();
 	}
@@ -100,13 +100,13 @@ int deal_with_function_args() {
 	printf("function returning ");
 }
 
-int deal_with_pointers() {
+deal_with_pointers() {
 	while ( stack[top].type== '*' ) {
 		printf("%s ", pop.string );
 	}
 }
 
-int deal_with_declarator() {
+deal_with_declarator() {
 	/* deal with possible/array function following the identifier */
 	switch (this.type) {
 	case '[' : deal_with_arrays(); break;
@@ -127,11 +127,11 @@ int deal_with_declarator() {
 	}
 }
 
-int main()
+main()
 {
 	/* put tokens on stack until we reach identifier */
 	read_to_first_identifier();
 	deal_with_declarator();
 	printf("\n");
 	return 0;
-}
+} 
