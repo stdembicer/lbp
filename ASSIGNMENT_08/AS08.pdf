@@ -1,0 +1,23 @@
+Part I:
+
+1.The overall size of my 1.out executable is 16696 bytes. In 1.out, the text segments is 1565, the data segment is 600, the bss segment is 8, the dec is 2173 and the hex is 87d.
+
+2. The overall size of my 2.out executable is 24 bytes bigger than my 1.out. While the text and data segments are the same size as my 1.out, the bss of 2.out is 4024 bigger. As a result, the dec is 4024 larger and has a hex of 1835.
+
+3. The overall size of my 3.out excecutable is 20756 bytes or 4016 bytes larger than my 2.out. ALthough the text segment is the same as 1.out and 2.out and the bss is the same as 1.out, the data segment grew by 4016, while the dec decreased by 8 and hex assumed a value of 182d.
+
+4. The overall size of my 4.out is 20784 bytes. In comparison to 3.out, my 4.out text segment size grew to 1754, the data segment grew to 4624, the bss stayed 8, the dec size grew to 6386, and hex assumed a value of 18f2. Initialized localled defined variables are stored in the executable; however, uninitialized locally defined variables are not stored in the executable. It matters whether the variables are initialized, because greater uninitialized data will increase the bss, while larger amounts of initialized data will increase the data segment size. 
+
+5. The overall size of my 5d.out executable is 23504 bytes. In comparison to 4.out, the text segment frew to 1875, the data segment grew to 4632, the bss stayed 8, the dec gre to 6515 and hex assumed a value of 1973. The overall size of my 5o.out is 20736. In comparison to my 5d.out, the text segment decreased to 1557,the data segment decreased to 4616, the bss remained the same, the dec was reduced to 6181 and the hex assumed the value 1825.
+
+Part II:
+
+1. After compiling the small test program in Stack Hack, the ///
+
+2. Once I compiled my code from stack_hack_3.c, I was able to grow the stack ///
+
+Part III:
+
+1. After tracing the flow of control in the diagram, the stack fram at the first call statement is 1. The stact frame at the second call statement is 1, and the stack frame at the third stakc segment is 5.
+
+2. In comparison to my desk checked results, the system overwrites invalid stack frames instead of stacking on top of them. 
