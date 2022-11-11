@@ -14,7 +14,7 @@ Part II:
 
 1. After compiling the small test program in Stack Hack, the main text segment is located at 0x56097b311169 and the heal is located at 0x56097b314010 and the heap is located at 0x7ffdac314d30.
 
-2. Once I compiled my code from stack_hack_3.c, I was able to grow the stack ///
+2. I grew the stack by initializing a global function. The stack grew to 0x55fa757a8010.
 
 Part III:
 
