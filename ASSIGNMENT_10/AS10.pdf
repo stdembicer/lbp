@@ -1,0 +1,42 @@
+1. 
+#include <stdio.h>
+one(char[] ca) {
+         printf("&ca = %p, &ca[0] = %p, &ca[1] = %p", &ca, &ca[0], &ca[1]);
+ }
+
+2.
+#include <stdio.h>
+two(char* pa) {
+        printf("&pa = %p, &pa[0] = %p, &pa[1] = %p, ++pa = %p", &pa, &pa[0], &pa[1],++pa);
+}
+
+3.
+#include <stdio.h>
+char[] ga = "abcdefghijklmnopqrstuvwxyz"
+main() {
+        one(ga);
+        two(ga);
+}
+
+4.
+ #include <stdio.h>
+
+char[] ga = "abcdefghijklmnopqrstuvwxyz"
+
+ one(char[] ca) {
+         printf("&ca = %p, &ca[0] = %p, &ca[1] = %p", &ca, &ca[0], &ca[1]);
+ }
+
+two(char* pa) {
+        printf("&pa = %p, &pa[0] = %p, &pa[1] = %p, ++pa = %p", &pa, &pa[0], &pa[1],++pa);
+}
+
+main() {
+        one(ga);
+        two(ga);
+        printf("&ga = %p, &ga[0] = %p, &ga[1] = %p", &ga, &ga[0], &ga[1]);
+}
+
+5. I expect &ga = &ca = &pa, &ga[0] = &ca[0] = &pa[0], &ga[1] = &ca[1] = &pa[1].
+In reality, the locations I expected to match did match. The only element that did not match the rest was ++pa.
+
