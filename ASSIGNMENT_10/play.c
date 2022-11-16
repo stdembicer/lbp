@@ -2,7 +2,7 @@
 
 char ga[27] = "abcdefghijklmnopqrstuvwxyz";
 
-void  one(char[] ca) {
+void  one(char ca[]) {
 	 printf("&ca = %p, &ca[0] = %p, &ca[1] = %p", &ca, &ca[0], &ca[1]);
  }
 
