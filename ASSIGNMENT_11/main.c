@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 	//TODO
 	
 	//Scoring
-	run_scoring_enginge(model);
+	run_scoring_engine(model);
 
 	free(xcoords);
 	free(ycoords);
